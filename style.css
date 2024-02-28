@@ -1,0 +1,260 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-image: url("./images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  background-color: rgb(32, 24, 24);
+}
+
+.navbar a  {
+margin-right: 40px;
+font-size: 16px;
+text-decoration: none;
+color: white;
+font-weight: bolder;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+.nameclass {
+  color: white;
+  position:absolute;
+ top: 200px;
+ left: 500px;
+ font-size: 50px;
+}
+
+.nameclass:hover {
+  color: rgb(32, 124, 161);
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(52, 51, 51);
+  display: flex;
+}
+
+.img {
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 300px;
+  border-radius: 50%;
+}
+
+.imgclassname {
+  border-radius: 50%;
+  width: 200px;
+  height: 180px;
+}
+
+.aboutme {
+  width: 70%;
+  margin-top: 100px;
+
+}
+
+.aboutme h1 {
+  color: rgb(32, 124, 161);
+}
+.lining {
+  width: 70%;
+}
+
+.lining p {
+  font-size: 20px;
+  color: white;
+  line-height: 35px;
+}
+
+.contactdetails {
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+
+.resumeclass {
+ display: flex;
+ margin-left: 100px;
+color: white;
+ margin-top: 50px;
+ box-sizing: content-box;
+ padding: 15px;
+ background-color: rgb(57, 53, 53);
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.iconclass {
+  margin-right: 10px;
+}
+
+.education {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+
+}
+
+
+.educationline {
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.educationline h2 {
+margin-left: 100px;
+text-decoration: underline;
+text-decoration-color:rgb(20, 101, 133) ;
+color: rgb(73, 71, 71);
+}
+.Qualification {
+  width: 70%;
+  margin-top: 100px;
+}
+
+.Qualification h3 {
+  color: rgb(94, 130, 144);
+  font-size: 25px;
+}
+
+.Qualification p {
+  color: rgb(66, 62, 62);
+  font-size: 20px;
+}
+
+.bestpercentage {
+  color: rgb(54, 50, 50);
+  font-size: 20px;
+}
+
+.courseclass{
+  color:rgb(94, 130, 144); 
+}
+
+.skills {
+  width: 100%;
+  height: 1000px;
+display: flex;
+}
+
+.skill {
+  width: 25%;
+  margin-top: 200px;
+  margin-left:300px ;
+  text-decoration: underline;
+  text-decoration-color: rgb(94, 130, 144);
+  font-size: 25px;
+  color: rgb(62, 58, 58);
+  font-weight: bold;
+}
+
+.skillname {
+width: 75%;
+margin-top: 200px;
+}
+
+.skillclass {
+  width: 50%;
+  height: 40px;
+  background-color: rgb(151, 145, 145);
+  margin: 20px 0px;
+}
+
+.fillclass1 {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass2 {
+  width: 63%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass3 {
+  width: 58%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass4 {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass5 {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass6 {
+  width: 45%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass7 {
+  width: 73%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+.fillclass8 {
+  width: 78%;
+  height: 100%;
+  background-color: rgb(44, 43, 43);
+}
+
+
+.footerclass {
+  width: 100%;
+  height: 75vh;
+  background-color: rgb(39, 37, 37);
+  margin-top: 100px;
+}
+
+.message {
+font-size: 50px;
+position: relative;
+margin-left: 200px;
+color: white;
+padding-top: 100px;
+}
+
+.address {
+margin-left: 200px;
+}
+
+.address h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.address p {
+  color: rgb(25, 146, 165);
+}
